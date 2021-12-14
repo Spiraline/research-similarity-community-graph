@@ -1,4 +1,4 @@
-# Research Similarity Community Graph based on affinity
+# Research Similarity Community Graph based on affiliation
 
 Numerous graduate school laboratories research their fields and submit papers to appropriate conferences/journals. However, it is not easy for them to know what kind of research is being conducted in other laboratories and which laboratory conducts research similar to theirs. In this project, we propose a research similarity metric between laboratories based on affiliation to meet the needs of the target users and implement a community graph based on the similarity using React and D3. Through this, professors, graduate students, and undergraduate students wishing to enter graduate school can obtain the information they want.
 
