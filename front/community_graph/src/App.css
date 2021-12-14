@@ -1,0 +1,43 @@
+div.tooltip {
+  position: absolute;
+  text-align: left;
+  padding: 2px;
+  font: 15px sans-serif;
+  background: lightsteelblue;
+  border: 0px solid;
+  border-radius: 8px;
+}
+
+.active {
+  stroke-width: 1;
+  stroke: blue;
+}
+
+.related_node {
+  stroke-width: 1;
+  stroke: red;
+}
+
+.conf_related_node {
+  stroke-width: 1;
+  stroke: yellow;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+svg text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+button {
+  border: 0px dashed #ccc;
+  width: 200px;
+  background: transparent;
+  cursor: pointer;
+}
