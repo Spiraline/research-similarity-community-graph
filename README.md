@@ -1,5 +1,6 @@
-# 2021-2-InfoVis
-2021-2 InfoVis Team Project
+# Research Similarity Community Graph based on affinity
+
+Numerous graduate school laboratories research their fields and submit papers to appropriate conferences/journals. However, it is not easy for them to know what kind of research is being conducted in other laboratories and which laboratory conducts research similar to theirs. In this project, we propose a research similarity metric between laboratories based on affiliation to meet the needs of the target users and implement a community graph based on the similarity using React and D3. Through this, professors, graduate students, and undergraduate students wishing to enter graduate school can obtain the information they want.
 
 ### Frontend (Community Graph)
 - Community graph implementation using nodes and links information
@@ -8,6 +9,18 @@ $ cd front/community_graph
 $ yarn add react-scripts rc-slider
 $ yarn start
 ~~~
+
+**[Overview]**
+
+![overview](https://user-images.githubusercontent.com/44594966/145974635-ba3d4a55-2449-4777-8d18-d4baea9bf1e3.JPG)
+
+**[School View]**
+
+![schoolview](https://user-images.githubusercontent.com/44594966/145974641-f11c34d0-33c2-41fc-99c9-0f71905ea355.JPG)
+
+**[Link Clicked]**
+
+![link_clicked](https://user-images.githubusercontent.com/44594966/145974647-17efd07d-2332-4e17-874b-6e66dc329112.JPG)
 
 ### Backend (Crawler)
 - Crawl data with python package ```selenium```
